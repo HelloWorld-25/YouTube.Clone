@@ -1,0 +1,35 @@
+.sidebar{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    border: 0;
+    border-right-width: 2px;
+    border-color: gray;
+    z-index: 100;
+}
+.home-logo,.explore-logo,.subscriptions-logo,.originals-logo,
+.youtube-music-logo,.library-logo{
+    height: 25px;
+    width:50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.home-logo:hover,.explore-logo:hover,.subscriptions-logo:hover,.originals-logo:hover,
+.youtube-music-logo:hover,.library-logo:hover{
+    height: 50px;
+    width: 50px;
+}
+.home,.explore,.subscriptions,.originals,
+.youtube-music,.library{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
